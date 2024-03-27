@@ -6,7 +6,7 @@ import (
 )
 
 const appName = "S1T9 Led Control by L2K"
-const version = "v1.0.0"
+const version = "v1.0.1"
 
 var cli struct {
   Off OffCommand `cmd:"" help:"Switch Off Leds."`

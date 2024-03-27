@@ -6,7 +6,7 @@ import (
 
 type OnCommand struct {
   SerialPort string `arg:"" name:"serial-port" required help:"Serial port"`
-	Mode string `long:"mode" enum:"auto,rainbow,breathing,cycle" default:"auto" help:"Led mode"`
+	Mode string `long:"mode" enum:"auto,rainbow,breathing,cycle" default:"auto" help:"Led mode (auto,rainbow,breathing,cycle)"`
   Brightness byte `long:"brightness" default:"5" help:"Brightness Level (1->5, 1 darker)"`
   Speed byte `long:"speed" default:"5" help:"Speed Level (1->5, 1 slower)"`
 }
